@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tags de agrupamento</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: dimgray;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.258);
+            
+            
+
+    
+            
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 50px;
+
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+        }
+
+        article {
+            background-color: lightgrey;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: red;
+
+    }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin-top: 10px;
+            border-radius: 50%;
+        }
+
+
+    </style>
+
+</head>
+<body>
+   <header><!-- cabeçalho-->
+    <h1>Meu site</h1>
+
+    <nav><!---criar menu dentro do cabeçalho--->
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        
+
+    </nav>
+
+   </header>
+
+   <main><!-- conteudo principal-->
+      <section id="assuntos">
+        <p>Espeotes Politica Tecnologia</p>
+
+      </section>
+
+      <section id="noticias">
+        <article>
+            <h2>Noticias sobre o brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque neque officiis nostrum mollitia omnis rem, voluptatibus veniam eveniet, laboriosam dignissimos ea tempore dolorum earum maxime facere eum velit pariatur aut.</p>
+            <aside>
+                <p>Artigo escrito por joaõ de deus.</p>
+            </aside>
+        </article>
+
+      </section>
+
+
+
+   </main>
+
+   <footer><!-- rodapé-->
+    <p>Desenvolvido por Cleber Cambraia Labandeira</p>
+
+   </footer>
+   <div id="bola">
+
+   </div>
+    
+</body>
+</html>

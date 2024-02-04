@@ -1,0 +1,43 @@
+@charset "UTF-8"; /*REGRA PRA NÃO TER PROBLEMA COM CARACTERES ESPECIAIS*/
+
+/*
+em HTML é id = CSS é #
+em HTML é class = em CSS é .
+*/
+/*
+-não podemos ter dois id="" dentro do mesmo html, só pode ser usado em um elemento
+
+-class pode ser usado em varios elementos, criando uma class essa pode ser usado para estilizar varios elemntos dentro da pagina, eles erdarão os estilod da class.
+*/
+body{
+    background-color: rgb(205, 255,203 );
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+color: red;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+h2
+{
+    color: blue;
+}
+
+.basico {
+    color: green;
+}
+
+.intermediario {
+    color: rgb(255, 0, 200);
+}
+
+.avancado {
+    color: red;
+}
